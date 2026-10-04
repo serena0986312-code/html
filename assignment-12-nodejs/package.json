@@ -1,0 +1,26 @@
+{
+  "name": "assignment-12-nodejs",
+  "version": "1.0.0",
+  "description": "Student CRUD backend using Node.js, Express, and MongoDB",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mongodb",
+    "crud"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "mongoose": "^8.8.2"
+  },
+  "devDependencies": {
+    "supertest": "^7.0.0"
+  }
+}
